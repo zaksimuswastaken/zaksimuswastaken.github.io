@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+		<!-- Spoiler tag stuff adapted from https://stackoverflow.com/a/52722370 -->
+		.hint {
+		background-color: #FFFFFF;
+		display: block; /* you could do this as a full-width block instead */
+		position: relative; /* needed for placeholder positioning */
+		}
+		
+		.hint:not(:active) {
+		background-color: #000000; /* these two colors must be equivalent A */
+		color: #000000; /* these two colors must be equivalent B */
+		min-width: 96px; /* 72px if box-sizing is border-box; ensures the placeholder is fully visible if the text is smaller than the placeholder text */
+		user-select: none; /* if you want it to be copyable, may highlight spoiler text when they click */
+		}
+		
+		.hint:not(:active)::before {
+		position: absolute;
+		content: 'spoilers (click)'; /* non-breaking spaces probably necessary */
+		color: #FFFFFF;
+		}
+		
+		
+		.smallhint {
+		background-color: #FFFFFF;
+		display: inline-block; /* you could do this as a full-width block instead */
+		position: relative; /* needed for placeholder positioning */
+		}
+		
+		.smallhint:not(:active) {
+		background-color: #000000; /* these two colors must be equivalent A */
+		color: #000000; /* these two colors must be equivalent B */
+		min-width: 96px; /* 72px if box-sizing is border-box; ensures the placeholder is fully visible if the text is smaller than the placeholder text */
+		user-select: none; /* if you want it to be copyable, may highlight spoiler text when they click */
+		}
+		
+		.smallhint:not(:active)::before {
+		position: absolute;
+		content: 'spoilers (click)'; /* non-breaking spaces probably necessary */
+		color: #FFFFFF;
+		}
+	</style>
+	
+	<title>index: bg3 builds</title>
+</head>
+
+
+
+
+
+
+<body>
+	<header>
+		<h1>Index of Optimized Baldur's Gate 3 Builds</h1>
+		<aside>
+			<p>The following builds:</p>
+				<ul>
+					<li><b>Optimize specific fantasies/concepts.</b> Some of these builds are outclassed by other builds that just don't capture the right fantasy.</li>
+					<li><b>Realize their concept early</b>, within the first 5 levels. Everything after that is just progression.
+					<li>Can perform in something close to a vacuum:</li>
+						<ul>
+							<li><b>Don't rely on specific allies</b> external to the build itself to realize their concept (with the exception of support builds).</li>
+							<li><b>Don't rely on any specific items</b>, be that unique magic items, consumables in general, or bonuses from making specific story decisions to realize their concept.</li>
+						</ul>
+					<li><b>Assume Honour Mode.</b> These builds will all obviously perform spectacularly on Tactician and below, but won't be maximally optimal because Honour adds four major considerations:</li>
+						<ul><i>
+							<li>Extra actions granted through Hastened or Elixir of Bloodlust do not benefit from Extra Attack (Action Surge still benefits from Extra Attack).</li>
+							<li>Pact of the Blade's Deepened Pact does not stack with Extra Attack to reach 3 attacks/action at level 8.</li>
+							<li><a href="https://www.youtube.com/watch?v=yQEQPrWLB8M">Damage Rider Sources</a> instead act as ordinary damage riders.</li>
+							<li>These builds place higher value on options that provide consistency to success, over options that make you succeed harder, which is valuable without the ability to reload saves.</li>
+						</i></ul>
+				</ul>
+		</aside>
+	</header>
+<br>
+<br>
+<br>
+	<h2>What do you want your build to do?</h2>
+	<h4>I WANT TO PRIORITIZE MELEE PHYSICAL DAMAGE</h4>
+		<ul>
+			<li>Smite Swords Bard (10/2, SSB) - </li>
+			<li>Sorcadin (6/6, 7/5) - 
+			<li>TB Monk - </li>
+			<li>Dual-Wield Lockadin - </li>
+			<li>TB Moon Druid - <b>Transform into various creatures</b>, and beat things to death. Enter and exit Wild Shape to cast <b>control spells</b>, take advantage of <b>full-day summons</b> in the mid-late game.</li>
+		</ul>
+	
+	<h4>I WANT TO PRIORITIZE RANGED PHYSICAL DAMAGE</h4>
+		<ul>
+			<li>Control Archer (10/1/1) - </li>
+			<li>TB Throwzerker - </li>
+			<li>Gloom Assassin - <b>Burst down enemies with a hail of arrows</b>, and do it <b>before they get to move</b>. <b>Excels with stealth but doesn't need it</b>. Still has <b>consistent DPS after the first turn</b>.</li>
+		</ul>
+		
+	<h4>I WANT TO PRIORITIZE SPELL DAMAGE</h4>
+		<ul>
+			<li>Fire Sorlock - </li>
+			<li>Missile Evoker - </li>
+		</ul>
+	
+	<h4>I WANT TO PRIORTIZIE SUPPORTING ABILITIES</h4>
+		<ul>
+			<li>Life Cleric - Output <b>ridiculous healing</b>, provide <b>high-impact full-day buffs</b>, provide <b>supportive spells in and out of combat</b>.</li>
+			<li>Retaliation Abjurer - <b>Trick the AI into attacking you</b> thanks to low AC, then <b>mitigate that damage</b>. Take advantage of spells that <b>inflict damage when you are attacked</b>. </li>
+		</ul>
+		
+	<h4>I WANT LORE-FRIENDLY YET OPTIMAL BUILDS FOR THE COMPANIONS</h4>
+		<ul>
+			<li>Lae'zel: Anything that likes wielding a Githyanki silver sword - SSB, Sorcadin</li>
+			<li>Shadowheart: Pretty much has to be primarily a Cleric or Paladin - SSB, Sorcadin, Dual-Wield Lockadin, </li>
+			<li>Astarion: Sneaky boi who likes to kill - TB Monk, Any Ranged DPS.</li>
+			<li>Gale: He studied magic as a Wizard, but having Sorcerer abilties from <div class="smallhint">the orb</div> or being a Cleric of <div class="smallhint">Mystra</div> make sense too - Retaliation Abjurer, Missile Evoker, </li>
+			<li>Wyll: The Blade of Frontiers kinda has to be a melee Fiend Warlock. - Dual-Wield Lockadin, Fire Sorlock, </li>
+			<li>Karlach: Some kind of Barbarian - TB Throw, </li>
+			<li><div class="hint">Halsin: Moon Druid fits too well - TB Moon Druid hands down.</div></li>
+			<li><div class="hint">Minthara: </div></li>
+			<li><div class="hint">Jaheira: tbh I don't know enough about BG2 to tell you what she's supposed to be like.</div></li>
+			<li><div class="hint">Minsc: tbh I don't know enough about BG2 to tell you what he's supposed to be like.</div></li>
+		</ul>
+	
+	<h4>I WANT TO ABUSE HIRELINGS</h4>
+		<ul>
+			<li>Alchemist - 2 levels of Transmutation Wizard lets you pass a DC 15 medicine check to <b>double anything you craft</b>. This build gets to +13 medicine and then minimizes natural 1s.</li>
+			<li>Divine Buffbot - Buff your party up with:
+				<ul>
+					<li>Light</li>
+					<li><b>Aid</b></li>
+					<li>Protection from Poison</li>
+					<li><b>Warding Bond</b></li>
+					<li>Death Ward</li>
+					<li><b>Freedom of Movement</b></li>
+					<li><b>Heroes Feast</b></li>
+					<li>Your choice between (require concentration): <b>Shield of Faith</b>, Protection from Evil and Good, Protection from Energy.</li>
+				</ul>
+			<li>Arcane Buffbot - Buff your party up with:
+				<ul>
+					<li>Light</li>
+					<li><b>Longstrider</b></li>
+					<li><b>Mage Armor</b></li>
+					<li>Darkvision</li>
+					<li><b>Bardic Inspiration</b></li>
+					<li>Your choice between (require concentration): Expeditious Retreat, Protection from Evil and Good, <b>Magic Weapon</b>, Protection from Energy, Barkskin.</li>
+				</ul>
+		</ul>
+</body>
+
+
+
+
+
+</html>
