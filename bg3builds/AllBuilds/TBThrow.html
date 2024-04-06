@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	
+	<style>
+		<!-- Spoiler tag stuff adapted from https://stackoverflow.com/a/52722370 -->
+		.hint {
+		background-color: #FFFFFF;
+		display: block; /* you could do this as a full-width block instead */
+		position: relative; /* needed for placeholder positioning */
+		}
+		
+		.hint:not(:active) {
+		background-color: #000000; /* these two colors must be equivalent A */
+		color: #000000; /* these two colors must be equivalent B */
+		min-width: 96px; /* 72px if box-sizing is border-box; ensures the placeholder is fully visible if the text is smaller than the placeholder text */
+		user-select: none; /* if you want it to be copyable, may highlight spoiler text when they click */
+		}
+		
+		.hint:not(:active)::before {
+		position: absolute;
+		content: 'spoilers (click)'; /* non-breaking spaces probably necessary */
+		color: #FFFFFF;
+		}
+		
+		
+		.smallhint {
+		background-color: #FFFFFF;
+		display: inline-block; /* you could do this as a full-width block instead */
+		position: relative; /* needed for placeholder positioning */
+		}
+		
+		.smallhint:not(:active) {
+		background-color: #000000; /* these two colors must be equivalent A */
+		color: #000000; /* these two colors must be equivalent B */
+		min-width: 96px; /* 72px if box-sizing is border-box; ensures the placeholder is fully visible if the text is smaller than the placeholder text */
+		user-select: none; /* if you want it to be copyable, may highlight spoiler text when they click */
+		}
+		
+		.smallhint:not(:active)::before {
+		position: absolute;
+		content: 'spoilers (click)'; /* non-breaking spaces probably necessary */
+		color: #FFFFFF;
+		}
+	</style>
+	
+	<title>TB Throw Build</title>
+</head>
+
+
+
+
+<body>
+	<header>
+		<h1>TB Throw</h1>
+		<aside><i>Welcome to the League of Darven.</i></aside>
+	</header>
+	
+	
+	<br><br><br>
+	
+	
+	<h2>Summary</h2>
+	<p>Summary goes here</p>
+	
+	<h2>Race</h2>
+	<p>Thoughts on race selection goes here</p>
+	
+	<h2>Class - Level 1</h2>
+	<p>Thoughts on class selection goes here</p>
+	
+	<h2>Background</h2>
+	<p>Thoughts on background selection goes here</p>
+	
+	<h2>Abilities</h2>
+	<p>Thoughts on ability score selection goes here</p>
+	
+	<h2>Skills</h2>
+	<p>Thoughts on skill selection goes here</p>
+	
+
+
+</body>
+
+
+
+
+
+</html>
