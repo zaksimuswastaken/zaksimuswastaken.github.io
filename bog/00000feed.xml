@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+<rss version="2.0">
+
+
+
+	<channel>
+		<title>zak's bog</title>
+		<description>bring insect repellent</description>
+		<link>https://zaksimuswastaken.github.io/bog/00000bogindex.html</link>
+		
+
+	<item>
+		<title>I Don't Believe I Will Die</title>
+		<description>it cannot be! it would be too terrible!</description>
+		<link>https://zaksimuswastaken.github.io/bog/00003believingindeath.html</link>
+	</item>
+
+
+	<item>
+		<title>Unfortunately, You Can't Be A Dog</title>
+		<description>only a man or a slave</description>
+		<link>https://zaksimuswastaken.github.io/bog/00002dogsandgods.html</link>
+	</item>
+	
+	
+	<item>
+		<title>Lexical Lucidity</title>
+		<description>how smart people use fancy words without being assholes</description>
+		<link>https://zaksimuswastaken.github.io/bog/00001lucidloquaciousness.html</link>
+	</item>
+	
+	
+	</channel>
+
+
+
+</rss> 
